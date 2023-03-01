@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #009f9d;
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home-page {
+  background-image: url(../images/coming-soon.png);
+  background-size: cover;
+  background-position: center;
+}
+.row {
+  padding-top: 150px;
+}
+.hero-text {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: right;
+  padding-right: 120px;
+}
+.text-rigth-wrapper {
+  padding-left: 50px;
+}
+.hero-text-right {
+  font-size: 35px;
+  color: white;
+}
+.card-contact {
+  margin: 0 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.card-contact a {
+  text-decoration: none;
+  color: #009f9d;
+  font-size: 19px;
+}
+/* Tablet */
+@media (min-width: 464px) and (max-width: 990px) {
+  .home-page {
+    background-image: url(../images/coming-soon.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .row {
+    padding-top: 20px;
+  }
+  .hero-text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 0;
+  }
+  .text-rigth-wrapper {
+    padding-left: 0;
+  }
+  .hero-text-right {
+    font-size: 30px;
+    color: white;
+  }
+  .card-contact {
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .card-contact a {
+    text-decoration: none;
+    color: #009f9d;
+    font-size: 27px;
+  }
+}
+
+/* Mobile */
+@media (min-width: 0px) and (max-width: 464px) {
+  .home-page {
+    background-image: url(../images/coming-soon.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .row {
+    padding-top: 0;
+  }
+  .hero-text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 0;
+  }
+  .text-rigth-wrapper {
+    padding-left: 0;
+  }
+  .hero-text-right {
+    font-size: 25px;
+    color: white;
+  }
+  .card-contact {
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .card-contact a {
+    text-decoration: none;
+    color: #009f9d;
+    font-size: 20px;
+  }
+}
