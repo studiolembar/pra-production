@@ -6,14 +6,11 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh !important;
   background-color: #009f9d;
   overflow-x: hidden;
-  overflow-y: hidden;
   font-family: 'Ubuntu', sans-serif;
 }
 .home-page {
-  height: 100vh;
   background-image: url(../images/coming-soon.png);
   background-size: cover;
   background-position: center;
@@ -25,18 +22,15 @@ body {
   color: white;
   font-size: 70px;
   font-weight: 700;
-  text-align: right;
-  padding-right: 120px;
-}
-.text-rigth-wrapper {
-  padding-left: 50px;
 }
 .hero-text-right {
-  font-size: 35px;
+  font-size: 57px;
+  font-weight: 700;
   color: white;
 }
 .card-contact {
-  margin: 0 5px;
+  margin-left: auto;
+  /* margin: 0 5px; */
   background-color: white;
   padding: 10px;
   border-radius: 15px;
@@ -48,15 +42,7 @@ body {
 }
 /* Tablet */
 @media (min-width: 464px) and (max-width: 990px) {
-  body {
-    height: 100vh !important;
-    background-color: #009f9d;
-    overflow: hidden;
-    font-family: 'Ubuntu', sans-serif;
-  }
   .home-page {
-    height: 100vh;
-    overflow: hidden;
     background-image: url(../images/coming-soon.png);
     background-size: 200%;
     background-repeat: no-repeat;
@@ -81,7 +67,7 @@ body {
     color: white;
   }
   .card-contact {
-    margin: 5px;
+    margin: 0 auto;
     background-color: white;
     padding: 10px;
     border-radius: 15px;
@@ -96,15 +82,7 @@ body {
 
 /* Mobile */
 @media (min-width: 0px) and (max-width: 464px) {
-  body {
-    height: 100vh !important;
-    background-color: #009f9d;
-    overflow: hidden;
-    font-family: 'Ubuntu', sans-serif;
-  }
   .home-page {
-    height: 100vh;
-    overflow: hidden;
     background-image: url(../images/coming-soon.png);
     background-size: 200%;
     background-repeat: no-repeat;
@@ -129,7 +107,7 @@ body {
     color: white;
   }
   .card-contact {
-    margin: 5px;
+    margin: 0 auto;
     background-color: white;
     padding: 10px;
     border-radius: 15px;
