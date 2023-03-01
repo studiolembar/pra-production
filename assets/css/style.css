@@ -48,7 +48,15 @@ body {
 }
 /* Tablet */
 @media (min-width: 464px) and (max-width: 990px) {
+  body {
+    height: 100vh !important;
+    background-color: #009f9d;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+  }
   .home-page {
+    height: 100vh;
+    overflow: hidden;
     background-image: url(../images/coming-soon.png);
     background-size: 200%;
     background-repeat: no-repeat;
