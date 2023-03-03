@@ -11,7 +11,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 .home-page {
-  background-image: url(../images/coming-soon.png);
+  background-image: url(../images/coming-soon.webp);
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +43,7 @@ body {
 /* Tablet */
 @media (min-width: 464px) and (max-width: 990px) {
   .home-page {
-    background-image: url(../images/coming-soon.png);
+    background-image: url(../images/coming-soon.webp);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -83,7 +83,7 @@ body {
 /* Mobile */
 @media (min-width: 0px) and (max-width: 464px) {
   .home-page {
-    background-image: url(../images/coming-soon.png);
+    background-image: url(../images/coming-soon.webp);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: center bottom;
